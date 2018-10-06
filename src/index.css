@@ -1,0 +1,9 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('./Page/images/mainbackground.jpg');
+    background-size: cover;
+    font-family: 'Julius Sans One';
+    filter: blur(1px);
+}

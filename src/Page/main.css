@@ -1,0 +1,19 @@
+h1{
+    color: #0B7A7F;
+    margin-top: 270px;
+    margin-left: 820px;
+    font-size: 50px;
+}
+table{
+    color: #2E4E4F;
+    margin-left: 840px;
+    height: 50px;
+    font-size: 40px;
+}
+td{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+a{
+    color: inherit;
+}
