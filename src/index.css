@@ -5,5 +5,11 @@ html{
     background: url('./Page/images/mainbackground.jpg');
     background-size: cover;
     font-family: 'Julius Sans One';
-    filter: blur(1px);
+    animation-name: blurring;
+    animation-duration: 3s;
+}
+
+@keyframes blurring{
+    from{filter: blur(10px)};
+    to{filter: blur(0)};
 }
