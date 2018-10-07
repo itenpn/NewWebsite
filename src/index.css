@@ -4,6 +4,7 @@ html{
     padding: 0;
     background: url('./Page/images/mainbackground.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Julius Sans One';
     animation-name: blurring;
     animation-duration: 3s;
