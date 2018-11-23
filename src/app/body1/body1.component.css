@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.background{
+    background: linear-gradient(to right bottom, #00aeca, #00b3c2, #00b7b5, #00baa4, #00bc8f) no-repeat center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.imgback{
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: .3;
+    filter: blur(3px);
+}
+
+@keyframes typing {
+    from { width: 0; text-align: center; }
+    to { width: 100%; text-align: center; }
+}
+
+@media all and (orientation:landscape){
+
+.content{
+    transform: translate(0, -95%);
+}
+
+.main{
+    display: block;
+    font-size: 25vh;
+	text-align: center;
+    font-family: "Nikoleta";
+    color: #cafbe7;
+    margin-top: 20%;
+    margin-bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end)	
+}
+
+.caption{
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    font-family: "Nikoleta";
+    color: #cafbe7;
+    margin-bottom: 20%;
+}
+
+}
+@media all and (orientation:portrait){
+
+    .content{
+        transform: translate(0, -230%);
+    }
+    .main{
+        display: block;
+        font-size: 5vh;
+        text-align: center;
+        font-family: "Nikoleta";
+        color: #cafbe7;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3.5s steps(40, end)	
+    }
+    
+    .caption{
+        display: block;
+        font-size: 2em;
+        text-align: center;
+        font-family: "Nikoleta";
+        color: #cafbe7;
+        margin-bottom: 20%;
+    }
+    
+    }

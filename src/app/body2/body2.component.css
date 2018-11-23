@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.content{
+    height: 100vh;
+}
+@media all and (orientation:landscape){
+.header{
+    text-align: center;
+    font-size: 700%;
+    font-family: "Slopes";
+    color: #cafbe7; 
+}
+
+.links{
+    font-family: "Slopes";
+    color: #cafbe7;
+    font-size: 5em;
+    text-align: center;
+    margin-left: 12%;
+    font-style: none;
+    letter-spacing: 200px;
+}
+}
+
+@media all and (orientation:portrait){
+.header{
+    text-align: center;
+    font-size: 10vh;
+    font-family: "Slopes";
+    color: #cafbe7; 
+}
+
+.links{
+    font-family: "Slopes";
+    color: #cafbe7;
+    font-size: 3em;
+    text-align: center;
+    margin-left: 1vw;
+    font-style: none;
+    letter-spacing: 2vh;
+}
+}
